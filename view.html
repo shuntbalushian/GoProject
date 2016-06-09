@@ -1,0 +1,22 @@
+<body style = "background-color: black; color: 00ff00">
+
+<a href = "/"><img src = "http://i.imgur.com/xkSmdcL.png" style = "width: 15%"></a>
+
+<h1 style = "position: absolute; left: 30%; top: 10%">{{.Title}}</h1>
+
+<div style = "position: absolute; left: 30%;">{{.HtmlBody}}</div>
+
+{{.HtmlForm}}
+
+<div style = "position: absolute; left: 1.5%; top: 54%"><a href = "/board/"><button type="button">Go To DiscussionBoard</button></a></div>
+
+<div style = "position: absolute; left: 1.5%; top: 57%">
+	{{.FriendForm}}
+</div>
+
+<div style = "position: absolute; left: 1.5%; top: 60%"><a href = "/logOut/"><button type="button">Logout</button></a></div>
+
+<h1 style = "position: absolute; left: 60%; top: 10%">Friends</h1>
+<div style = "position: absolute; left: 60%;">{{.FriendList}}</div>
+
+</body>

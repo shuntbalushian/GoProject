@@ -1,0 +1,16 @@
+<body style = "background-color: black;">
+<a href = "/"><img src = "http://i.imgur.com/xkSmdcL.png" style = "width: 15%"></a>
+
+<div style = "position: absolute; left: 30%; top: 0%; height: 100%">
+<h1 style = "color: 00ff00">{{.Title}}</h1>
+{{.HtmlBody}}
+</div>
+
+<form action="/globalPost/" method="POST" style = "position: absolute; left: 20px; top:30%">
+<div><textarea name="body2" rows="10" cols="20"></textarea></div>
+<div><input type="submit" value="Post On DiscussionBoard"></div>
+</form>
+
+<div style = "position: absolute; left: 1.5%; top: 54%"><a href = "/logOut/"><button type="button">Logout</button></a></div>
+
+</body>
